@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#80CBC4"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textSize="32dp"
+        android:id="@+id/text"
+        android:textColor="@color/black"
+         />
+    <EditText
+        android:background="#F0F4C3"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/text"
+        android:id="@+id/edit_text"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/edit_text"
+        android:id="@+id/password"
+        />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="#F0F4C3"
+        android:layout_width="210dp"
+        android:textColor="@color/black"
+        android:layout_height="40dp"
+        android:layout_below="@+id/password"
+        android:id="@+id/edit_pass"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:id="@+id/btn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edit_pass"
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#AED581"
+/>
+</RelativeLayout>
